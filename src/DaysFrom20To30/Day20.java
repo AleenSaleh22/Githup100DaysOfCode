@@ -41,15 +41,17 @@ public class Day20 {
         System.out.println("**************************************");
 
         //Print all the values one-by-one by looping through the Set
-        /*for this instruction we can use for each loop because the set do not have an
-         index for every instance on it */
+        /*We use a for-each loop because a Set does not use indexes like a List does. */
 
         for(String name: setNames){
-            System.out.println("element :"+setNames.hashCode()+"--> "+name);
+            System.out.println("element :"+name);
         }
         System.out.println("**************************************");
 
-        //
+        //Remove all values from the Set
+        setNames.clear();
+        System.out.println("this is the final edition of our set: "+setNames);
+        System.out.println("**************************************");
 
     }
 }
