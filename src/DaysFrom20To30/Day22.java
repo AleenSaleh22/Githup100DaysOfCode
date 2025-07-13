@@ -23,5 +23,8 @@ public class Day22 {
         names.push("Mohammad");
         names.push("Amer");
 
+        //Remove the top element from the Stack: the top element hare is Amer
+        names.pop();
+
     }
 }
